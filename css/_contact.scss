@@ -1,0 +1,61 @@
+
+.contact__customer-support{
+    width: 100%;
+    padding: 30px;
+
+    input{
+        width: 100%;
+        border:1px solid $color__text--one;
+        height: 60px;
+        text-indent: 10px;
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+    }
+    textarea{
+        width: 100%;
+        height: 150px;
+        line-height: 50px;
+        text-indent: 10px;
+        font-size: 1.1rem;
+    }
+    input[type=submit]{
+        margin-top: 40px;
+        line-height: 0;
+        @extend %btn;
+    }
+    input[type=submit]:hover{
+        @extend %btnHover;
+    }
+    input[type=submit]:active{
+        @extend %btn-primary;
+    }
+}
+.contact__map{
+    width: 100%;
+    height: 100%;
+    iframe{
+        width: 100%;
+        height: 100%;
+    }
+}
+.contact__text{
+    font-size: 2rem;
+    font-weight: bold;
+    color: $color__text;
+    padding:40px 0;
+}
+
+.contact__info{
+    padding:90px 0;
+    .contact__info--title{
+        padding-bottom: 40px;
+        color: $color__text;
+    }
+    .info-card{
+        font-size: 1rem;
+        color: $color__text--one;
+        span{
+            color:$main__color;
+        }
+    }
+}

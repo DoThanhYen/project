@@ -1,0 +1,39 @@
+// menutab
+.menutab{
+    margin:90px 0;
+    position: relative;
+}
+.tabcontent{
+    display: none;
+    margin-top: 40px;
+}
+.buttons{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: white;
+    gap:0;
+    border:1px solid #d2d2d2;
+}
+.button{
+    height:60px;
+    line-height: 60px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+    z-index: 100;
+
+}
+.buttons .button:hover{
+    background-color:#c09d6c;
+    color:#fff;
+}
+
+.buttons button.active{
+    background-color: $main__color;
+    color: white;
+}

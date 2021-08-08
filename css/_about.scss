@@ -1,0 +1,85 @@
+.about{
+    margin:90px 0;
+}
+.about-content{
+    align-items: flex-start;
+}
+
+.about__img--left,.about__img--right{
+    width: 300px;
+    height:500px;
+    margin: 0 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about__img--left{
+    margin-top: -30px;
+}
+
+.about__img--right{
+    margin-bottom: -30px;
+}
+.about__dsc--title{
+    @include fontGreate();
+}
+.about__dsc--heading{
+    @include heading();
+    margin-bottom: 24px;
+}
+.about__dsc--paragraph{
+    margin-bottom: 16px;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    color: $color__text--one;
+}
+.about__dsc--phone{
+    color:$main__color;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.about__dsc--paragraph{
+    font-size: 1rem;
+    line-height:1.5rem;
+}
+
+.about__counters-row{
+    width: 100%;
+}
+
+.about__counters{
+    align-items: flex-start;
+    width:70%;
+}
+.about__title{
+    width:30%;
+    p{
+        font-size: 1.1rem;
+        line-height: 2rem;
+        color: $color__text--one;
+        padding:0 40px;
+    }
+}
+.about__counter--item{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items:center;
+    text-align: center;
+}
+.about__counter{
+    margin-top: 90px;
+}
+
+.about__counter--number{
+    font-size: 3rem;
+    font-weight: 700;
+    color: $main__color;
+}
+.about__counter--text{
+    font-size: 1rem;
+    font-weight: normal;
+    color: $color__text--one;
+}

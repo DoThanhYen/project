@@ -1,0 +1,44 @@
+.chefs{
+    .chef__title{
+        width: 100%;
+        text-align: center;
+        padding:60px 0;
+        h3{
+           @extend %fontGreate;
+        }
+        h4{
+            @extend %heading;
+        }
+    }
+
+    .chef__cards{
+        width: 100%;
+        .chef__card{
+            border-radius: 7px;
+            width: 100%;
+            .chef__card--img{
+                width: 100%;
+                height:320px;
+                border-radius: 10px;
+                overflow: hidden;
+            }
+            .chef__card--text{
+                padding: 20px 0;
+                h4{
+                    color: $color__text;
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                    line-height: 2rem;
+                }
+                p{
+                    color: $color__text--one;
+                }
+            }
+           .icon-twitter, .icon-facebook, .icon-google-plus, .icon-instagram{
+               color: $main__color;
+               font-size: 1.2rem;
+               margin-right: 5px;
+           }
+        }
+    }
+}

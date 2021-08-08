@@ -1,0 +1,52 @@
+.recent__posts{
+    background-color: $bg__color;
+    margin:90px 0;
+    padding:60px 0;
+}
+.recent__posts--text{
+    width: 100%;
+    text-align: center;
+    h3{
+        @extend %fontGreate;
+    }
+    h4{
+        @extend %heading;
+    }
+}
+.recent__post--cards{
+   padding:20px 0 ;
+}
+.recent__post--card{
+    width: 100%;
+    background-color: white;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.3);
+}
+.post__card--img{
+    width: 100%;
+    height:250px;
+}
+
+.post__card--text{
+    padding:20px;
+    p{
+        color: $color__text--one;
+    }
+    h3{
+        color:$color__text;
+        line-height: 2rem;
+        padding:10px 0;
+        font-size: 1.2rem;
+    }
+    a{
+        color:$color__text--one;
+    }
+    a.read-more{
+        @extend %btn;
+    }
+    a.read-more:hover{
+        @extend %btn-primary;
+    }
+    .icon-chat{
+        padding:0 5px;
+    }
+}

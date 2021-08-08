@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- icomoon -->
+    <link rel="stylesheet" href="./css/icomoon.css">
+    <link rel="stylesheet" href="./css/ionicons.min.css">
+    <!-- flaticon -->
+    <link rel="stylesheet" href="./css/flaticon.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Ẩm thực</title>
+</head>
+<body>
+    <header>
+        <!-- header top -->
+        <div class="header__top headline">
+            <div class="container">
+                <ul class="header__top-items row">
+                    <li class="header__top-item"> <i class="fas fa-phone"></i> 0941546589</li>
+                    <li class="header__top-item"> <i class="fas fa-envelope"></i>thanhyen476@gmail.com</li>
+                    <li class="header__top-item">Open hours : Monday - Sunday 8:00 AM - 9:00PM</li>
+                </ul>
+        </div>
+        </div>
+        
+        <!-- navigation -->
+        <section class="navigation headline">
+            <div class="container">
+                <nav class="nav__menu row">
+                    <h1 class="nav-logo__title"><a href="index.html">Feliciano</a></h1>
+
+                    <label for="check__mobile">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                    <!-- nav pc -->
+                    <ul class="nav__pc row">
+                        <li class="nav__pc--item"><a href="index.html" class="nav__pc--link" active>Home</a></li>
+                        <li class="nav__pc--item"><a href="./html/about.html" class="nav__pc--link">About</a></li>
+                        <li class="nav__pc--item"><a href="./html/menu.html" class="nav__pc--link">Menu</a></li>
+                        <li class="nav__pc--item"><a href="./html/stories.html" class="nav__pc--link">Stories</a></li>
+                        <li class="nav__pc--item"><a href="./html/contact.html" class="nav__pc--link">Contact</a></li>
+                        <li class="nav__pc--item"><a href="./html/bookATable.html" class="nav__pc--link link-book_a_table">Book a table</a></li>
+                    </ul>
+
+                    
+
+                    <input type="checkbox" id="check__mobile" >
+
+                    <label for="check__mobile" class="overlay"></label>
+
+                    <!-- nav mobile -->
+                    <ul class="nav__mobile">
+                        <label for="check__mobile" class="nav__mobile-icon">
+                            <i class="fas fa-times"></i>
+                        </label>
+                        <li class="nav__mobile--item"><a href="index.html" class="nav__mobile--link">Home</a></li>
+                        <li class="nav__mobile--item"><a href="./html/about.html" class="nav__mobile--link">About</a></li>
+                        <li class="nav__mobile--item"><a href="./html/menu.html" class="nav__mobile--link">Menu</a></li>
+                        <li class="nav__mobile--item"><a href="./html/stories.html" class="nav__mobile--link">Stories</a></li>
+                        <li class="nav__mobile--item"><a href="./html/contact.html" class="nav__mobile--link">Contact</a></li>
+                        <li class="nav__mobile--item"><a href="./html/bookATable.html" class="nav__mobile--link link-book_a_table">Book a table</a></li>
+                    </ul>
+
+                </nav>
+            </div>
+        </section>
+    </header>
+
+           <!-- slides-->
+    <section class="slider headline" id="slider ">
+        <div class="my__slider">
+             <!-- slider-item -->
+            <div class="slider__item fade slider__item-1" style="background: url('./images/bg_1.jpg') top center cover no-repeat;">
+                <div class="over-lay"></div>
+                <div class="slider__text">
+                    <h3 class="slider__item--title font__greate">Feliciano</h3> 
+                    <p class="slider__item--desc">Best restaurant</p>
+                </div>
+            </div>
+    
+            <!-- slider-item -->
+            <div class="slider__item fade slider__item-2">
+                <div class="over-lay"></div>
+                <div class="slider__text">
+                    <h3 class="slider__item--title font__greate">Feliciano</h3> 
+                    <p class="slider__item--desc">Delicious specialties</p>
+                </div>
+            </div>
+    
+            <!-- slider-item -->
+            <div class="slider__item fade slider__item-3">
+                <div class="over-lay"></div>
+                <div class="slider__text">
+                    <h3 class="slider__item--title font__greate">Feliciano</h3> 
+                    <p class="slider__item--desc">Good for health</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- featured -->
+    <section class="featured headline">
+        <div class="container">
+            <!-- feature-menus-->
+            <div class="featured__menus grid-col-4">
+                <!-- menu-item -->
+                <div class="featured__menus--item ">
+                    <div class="menu__img">
+                        <img src="./images/breakfast-1.jpg"  alt="feature menu">
+                    </div>
+                    <div class="menu__text">
+                        <h4>Grilled Beef with potatoes</h4>
+                        <p>Meat,Patatoes,Rice,Tomatoe</p>
+                    </div>
+                </div>
+                 <!-- menu-item -->
+                 <div class="featured__menus--item ">
+                    <div class="menu__img">
+                        <img src="./images/breakfast-2.jpg"  alt="feature menu">
+                    </div>
+                    <div class="menu__text">
+                        <h4>Spicy chicken salad bowl</h4>
+                        <p>Chicken,Salad,Tomatoe</p>
+                    </div>
+                </div>
+                 <!-- menu-item -->
+                 <div class="featured__menus--item ">
+                    <div class="menu__img">
+                        <img src="./images/breakfast-3.jpg"  alt="feature menu">
+                    </div>
+                    <div class="menu__text">
+                        <h4>Swedish meatballs</h4>
+                        <p>Potatoes,cream sauce,Cheese</p>
+                    </div>
+                </div>
+                 <!-- menu-item -->
+                 <div class="featured__menus--item ">
+                    <div class="menu__img">
+                        <img src="./images/breakfast-4.jpg" alt="feature menu">
+                    </div>
+                    <div class="menu__text">
+                        <h4>Eggs Benedict</h4>
+                        <p>Eggs,Bread,Meat</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section class="about ">
+        <div class="container">
+            <div class="grid-col-2 about-content headline">
+                <div class="about__img row">
+                    <div class="about__img--left" style="background-image : url(./images/about.jpg)"></div>
+                    <div class="about__img--right" style="background-image : url(./images/about-1.jpg)"></div>
+                </div>
+                <div class="about__dsc">
+                    <h3 class="about__dsc--title">
+                        About
+                    </h3>
+                    <h4 class="about__dsc--heading">Feliciano<br> Restaurant</h4>
+                    <p class="about__dsc--paragraph"> A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                        It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                    <p class="about__dsc--paragraph">Mon - Fri <strong>8 AM - 11 PM</strong></p>
+                    <p class="about__dsc--phone">+ 1-978-123-4567</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="about__counter">
+                <div class="row about__counters-row headline">
+                    <div class="about__counters col-md-2 grid-col-4">
+                        <div class="about__counter--item ">
+                            <p class="about__counter--number number"  id="count__years">18</p>
+                            <p class="about__counter--text">YEAR OF EXPERIENCE</p>
+                        </div>
+                        <div class="about__counter--item ">
+                            <p class="about__counter--number number" id="count__menus">98</p>
+                            <p class="about__counter--text">MENUS/DISH</p>
+                        </div>
+                        <div class="about__counter--item ">
+                            <p class="about__counter--number number"  id="count__staffs">1500</p>
+                            <p class="about__counter--text">STAFFS</p>
+                        </div>
+                        <div class="about__counter--item">
+                            <p class="about__counter--number number" id="count__customers">15000</p>
+                            <p class="about__counter--text"> HAPPY CUSTOMERS</p>
+                        </div>
+                    </div>
+                    <div class="about__title col-md-2">
+                        <p>
+                            A small river named Duden flows by their place and supplies it with the
+                        necessary regelialia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- service -->
+    <section class="services headline">
+        <div class="container">
+            <div class="service__title headline">
+                <h3>Services</h3>
+                <h4>Catering Services</h4>
+            </div>
+            <div class="service__cards row headline">
+                <div class="service__card col-md-3">
+                    <div class="service__card--icon">
+                        <span class="flaticon-cake icon-fla"></span>
+                    </div>
+                   <div class="service__card--text">
+                    <h3 class="service__card--title">
+                        Birthday Party 
+                    </h3> 
+                    <p class="service__card--paragraph">
+                        Even the all-powerful Pointing has no control about the blind texts it is an almost
+                    unorthographic.
+                    </p>
+                   </div>
+                </div>
+
+                <div class="service__card col-md-3 headline">
+                    <div class="service__card--icon">
+                        <span class="flaticon-meeting icon-fla"></span>
+                    </div>
+                    <div class="service__card--text">
+                        <h3 class="service__card--title">
+                            Business Meetings
+                        </h3>
+                        <p class="service__card--paragraph">
+                            Running a home business can be lonely, especially during the pandemic.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service__card col-md-3 headline">
+                    <div class="service__card--icon">
+                        <span class="flaticon-tray icon-fla"></span>
+                    </div>
+                   <div class="service__card--text">
+                    <h3 class="service__card--title">
+                        Wedding Party
+                    </h3>
+                    <p class="service__card--paragraph">
+                        the wedding party is prepared and the stressed wedding planner Wonu is 
+                        trying to make everything perfect for her rich clients. 
+                    </p>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- menus -->
+    <section id="menus">
+        <div class="container">
+            <div class="menu__title">
+                <h3>Specialties</h3>
+                <h4>Our Menu</h4>
+            </div>
+
+            <div class="menu__cards ">
+                <!-- menu-card -->
+                <div class="menu__card col-md-2 row headline">
+                    <div class="menu__card--img col-md-2">
+                        <img src="./images/breakfast-1.jpg">
+                    </div>
+                    <div class="menu__card--text col-md-2">
+                        <div class="row menu__card--text-title">
+                            <h3>Grilled Beef with potatoes</h3>
+                            <p class="price">$29</p>
+                        </div>
+                        <p>Meat, Potatoes, Rice, Tomatoe</p>
+                    </div>
+                </div>
+                <div class="menu__card col-md-2 row headline"> 
+                    <div class="menu__card--img col-md-2">
+                        <img src="./images/breakfast-2.jpg">
+                    </div>
+                    <div class="menu__card--text col-md-2">
+                        <div class="row menu__card--text-title">
+                            <h3>Grilled Beef with potatoes</h3>
+                            <p class="price">$29</p>
+                        </div>
+                        <p>Meat, Potatoes, Rice, Tomatoe</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu__cards">
+                <!-- menu-card -->
+                <div class="menu__card col-md-2 row headline">
+                    <div class="menu__card--text col-md-2">
+                        <div class="row menu__card--text-title">
+                            <h3>Grilled Beef with potatoes</h3>
+                            <p class="price">$29</p>
+                        </div>
+                        <p>Meat, Potatoes, Rice, Tomatoe</p>
+                    </div>
+                    <div class="menu__card--img col-md-2">
+                        <img src="./images/breakfast-3.jpg">
+                    </div>
+                </div>
+                <div class="menu__card col-md-2 row headline">
+                    <div class="menu__card--text col-md-2">
+                        <div class="row menu__card--text-title">
+                            <h3>Grilled Beef with potatoes</h3>
+                            <p class="price">$29</p>
+                        </div>
+                        <p>Meat, Potatoes, Rice, Tomatoe</p>
+                    </div>
+                    <div class="menu__card--img col-md-2">
+                        <img src="./images/breakfast-4.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu__cards ">
+                <!-- menu-card -->
+                <div class="menu__card col-md-2 row headline">
+                    <div class="menu__card--img col-md-2">
+                        <img src="./images/breakfast-5.jpg">
+                    </div>
+                    <div class="menu__card--text col-md-2">
+                        <div class="row menu__card--text-title">
+                            <h3>Grilled Beef with potatoes</h3>
+                            <p class="price">$29</p>
+                        </div>
+                        <p>Meat, Potatoes, Rice, Tomatoe</p>
+                    </div>
+                </div>
+                <div class="menu__card col-md-2 row headline">
+                    <div class="menu__card--img col-md-2">
+                        <img src="./images/breakfast-6.jpg">
+                    </div>
+                    <div class="menu__card--text col-md-2">
+                        <div class="row menu__card--text-title">
+                            <h3>Grilled Beef with potatoes</h3>
+                            <p class="price">$290</p>
+                        </div>
+                        <p>Meat, Potatoes, Rice, Tomatoe</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about chefs -->
+    <section class="chefs headline">
+        <div class="container">
+            <div class="chef__title headline">
+                <h3>Chef</h3>
+                <h4>Our Master Chef</h4>
+            </div>
+            <div class="chef__cards grid-col-4 headline">
+                <!-- chef-card -->
+                <div class="chef__card headline">
+                    <div class="chef__card--img">
+                        <img src="./images/chef-1.jpg" alt="chef"> 
+                    </div>
+                     <div class="chef__card--text">
+                        <h4>John Smooth</h4>
+                        <p>Restaurant Owner</p>
+                    </div>
+                    <div class="chef__card--social">
+                        <a href="#"><span class="icon-twitter"></span></a>
+                        <a href="#"><span class="icon-facebook"></span></a>
+                        <a href="#"><span class="icon-google-plus"></span></a>
+                        <a href="#"><span class="icon-instagram"></span></a>
+                    </div>
+                </div>
+
+                <!-- chef-card -->
+                <div class="chef__card headline">
+                    <div class="chef__card--img">
+                        <img src="./images/chef-2.jpg" alt="chef"> 
+                    </div>
+                     <div class="chef__card--text">
+                        <h4>Rebeca Welson</h4>
+                        <p>Head Chef</p>
+                    </div>
+                    <div class="chef__card--social">
+                        <a href="#"><span class="icon-twitter"></span></a>
+                        <a href="#"><span class="icon-facebook"></span></a>
+                        <a href="#"><span class="icon-google-plus"></span></a>
+                        <a href="#"><span class="icon-instagram"></span></a>
+                    </div>
+                </div>
+
+                 <!-- chef-card -->
+                 <div class="chef__card headline">
+                    <div class="chef__card--img">
+                        <img src="./images/chef-3.jpg" alt="chef"> 
+                    </div>
+                    <div class="chef__card--text">
+                        <h4>Kharl Branyt</h4>
+                        <p>Chef</p>
+                    </div>
+                    <div class="chef__card--social">
+                        <a href="#"><span class="icon-twitter"></span></a>
+                        <a href="#"><span class="icon-facebook"></span></a>
+                        <a href="#"><span class="icon-google-plus"></span></a>
+                        <a href="#"><span class="icon-instagram"></span></a>
+                    </div>
+                </div>
+
+                 <!-- chef-card -->
+                 <div class="chef__card headline">
+                    <div class="chef__card--img">
+                        <img src="./images/chef-4.jpg" alt="chef"> 
+                    </div>
+                     <div class="chef__card--text">
+                        <h4>Luke Simon</h4>
+                        <p>Chef</p>
+                    </div>
+                    <div class="chef__card--social">
+                        <a href="#"><span class="icon-twitter"></span></a>
+                        <a href="#"><span class="icon-facebook"></span></a>
+                        <a href="#"><span class="icon-google-plus"></span></a>
+                        <a href="#"><span class="icon-instagram"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- reservation -->
+    <section class="reservation headline ">
+        <div class="container">
+            <div class="reservation__book-a-table headline">
+                
+                <form action="https://formspree.io/f/xyylgdjd" method="POST" onsubmit="return validateForm();">
+                    <div class="reservation__book-a-table--title">
+                        <h3>Book a table</h3>
+                        <h4>Make Reservation</h4>
+                    </div>
+                    <div class="form__book-a-table">
+                        <div class="col-6">
+                            <label for="name">Name</label>
+                            <input type="text" name="Name" id="name" class="form__input " placeholder="Your Name" required>
+                        </div>
+                        <div class="col-6">
+                            <label for="email">Email</label>
+                            <input type="email" name="Email" id="email" class="form__input "placeholder="Your Email" required>
+                        </div>
+                        <div class="col-6">
+                            <label for="phone">Phone</label>
+                            <input type="text" name="Name" id="phone" class="form__input "placeholder="Phone " required>
+                        </div>
+                        <div class="col-6">
+                            <label for="date">Date</label>
+                            <input type="date" name="Date" id="date" class="form__input "placeholder="Date" required>
+                        </div>
+                        <div class="col-6">
+                            <label for="time">Time</label>
+                            <select name="Time" id="time" class="form__input " required>
+                                <option value="">8:00am</option>
+                                <option value="">9:00am</option>
+                                <option value="">10:00am</option>
+                                <option value="">11:00am</option>
+                                <option value="">12:00am</option>
+                                <option value="">1:00pm</option>
+                                <option value="">2:00pm</option>
+                                <option value="">3:00pm</option>
+                                <option value="">4:00pm</option>
+                                <option value="">5:00pm</option>
+                                <option value="">6:00pm</option>
+                                <option value="">7:00pm</option>
+                                <option value="">8:00pm</option>
+                            </select>
+                        </div>
+                        <div class="col-6">
+                            <label for="person">Person</label>
+                            <input type="number" name="Person" id="person" min="0"class="form__input " required>
+                        </div>
+                    </div>
+                    <div class="form__submit row">
+                        <input type="submit" value="Make a Reservation" class="btn-submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============start-testymony===========-->
+ <section class="testymony headline">
+    <div class="container">
+        <div class="testymony__text">
+            <h3 >Testimony</h3>
+            <h4 >Happy Customer</h4>
+        </div>
+        <div class="testymony__slider headline">
+            <div class="slide__shows"> 
+                <!-- slider-show -->
+                <div class="slide__show s1">
+                    <div class="slider__show--img">
+                        <img src="./images/person_2.jpg">
+                        <div class="slider__show--icon">
+                            <i class="icon-quote-left"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="slider__show--text">
+                        <p class="slider__show--about">
+                            Even the all-powerful Pointing has no control about the blind texts it is an almost
+                            unorthographic.
+                        </p>
+                        <h3 class="slider__show--name">Art Leonard</h3>
+                        <p class="slider__show--type">
+                            CUSTOMER
+                        </p>
+                    </div>
+                </div>
+                <!-- slider-show -->
+                <div class="slide__show ">
+                    <div class="slider__show--img">
+                        <img src="./images/person_3.jpg">
+                        <div class="slider__show--icon">
+                            <i class="icon-quote-left"></i>
+                        </div>
+                    </div>
+                   
+                    <div class="slider__show--text">
+                        <p class="slider__show--about">
+                            Even the all-powerful Pointing has no control about the blind texts it is an almost
+                            unorthographic.
+                        </p>
+                        <h3 class="slider__show--name">Art Leonard</h3>
+                        <p class="slider__show--type">
+                            CUSTOMER
+                        </p>
+                    </div>
+                </div>
+                <!-- slider-show -->
+                <div class="slide__show">
+                    <div class="slider__show--img">
+                        <img src="./images/person_4.jpg">
+                        <div class="slider__show--icon">
+                            <i class="icon-quote-left"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="slider__show--text">
+                        <p class="slider__show--about">
+                            Even the all-powerful Pointing has no control about the blind texts it is an almost
+                            unorthographic.
+                        </p>
+                        <h3 class="slider__show--name">Art Leonard</h3>
+                        <p class="slider__show--type">
+                            CUSTOMER
+                        </p>
+                    </div>
+                </div>
+                <!-- slider-show -->
+                <div class="slide__show">
+                    <div class="slider__show--img">
+                        <img src="./images/person_4.jpg">
+                        <div class="slider__show--icon">
+                            <i class="icon-quote-left"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="slider__show--text">
+                        <p class="slider__show--about">
+                            Even the all-powerful Pointing has no control about the blind texts it is an almost
+                            unorthographic.
+                        </p>
+                        <h3 class="slider__show--name">Art Leonard</h3>
+                        <p class="slider__show--type">
+                            CUSTOMER
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="dot">
+            <input type="radio" name="bottom" id="bottom1" checked>
+            <input type="radio" name="bottom" id="bottom2">
+            <input type="radio" name="bottom" id="bottom3">
+            <input type="radio" name="bottom" id="bottom4">
+                <label for="bottom1" class="bar bar1"></label>
+                <label for="bottom2" class="bar bar2"></label>
+                <label for="bottom3" class="bar bar3"></label>
+                <label for="bottom4" class="bar bar4"></label>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- =============end-testymony=============-->
+
+<!--==============recent-posts==============-->
+<section class="recent__posts headline">
+    <div class="container">
+        <div class="recent__posts--text headline">
+            <h3>Blog</h3>
+            <h4>Recent Posts</h4>
+        </div>
+        <div class="grid-col-3 recent__post--cards">
+            <div class="recent__post--card headline">
+                <div class="post__card--img">
+                    <img src="./images/image_1.jpg" alt="recent post">
+                </div>
+                <div class="post__card--text">
+                    <p>Sept. 06, 2019 Admin</p>
+                    <h3>Taste the delicious foods in Asia</h3>
+                    <div class="post__card--text-link row">
+                        <a href="#"  class="read-more">Read more &#10140;</a>
+                        <a href="#" class="color-gray"><span class="icon-chat"></span>3</a>
+                    </div>
+                </div>
+            </div>
+            <div class="recent__post--card headline">
+                <div class="post__card--img">
+                    <img src="./images/image_2.jpg" alt="recent post">
+                </div>
+                <div class="post__card--text">
+                    <p>Sept. 06, 2019 Admin</p>
+                    <h3>Taste the delicious foods in Asia</h3>
+                     <div class="post__card--text-link row">
+                        <a href="#"  class="read-more">Read more &#10140;</a>
+                        <a href="#" class="color-gray"><span class="icon-chat"></span>3</a>
+                    </div>
+                </div>
+            </div>
+            <div class="recent__post--card headline">
+                <div class="post__card--img">
+                    <img src="./images/image_3.jpg" alt="recent post">
+                </div>
+                <div class="post__card--text">
+                    <p>Sept. 06, 2019  Admin</p>
+                    <h3>Taste the delicious foods in Asia</h3>
+                     <div class="post__card--text-link row">
+                        <a href="#"  class="read-more">Read more &#10140;</a>
+                        <a href="#" class="color-gray"><span class="icon-chat"></span>3</a>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+</section>
+<!--================end-recent-posts==========-->
+
+<footer>
+    <div class="container">
+        <div class="footer">
+            <div class="footer__card headline">
+                <h2 class="footer__card--text">Feliciano</h2>
+                <p>
+                    Far far away, behind the word mountains, far from the
+                    countries Vokalia and Consonantia, there live the blind texts.
+                </p>
+                <div class="footer__card--social row headline">
+                    <div class="social-icon">
+                        <a href="#" class="circle headline" style="background: #00ACED; "><i
+                            class="icon-twitter"></i></a>
+                    </div>
+                    <div class="social-icon">
+                        <a href="#" class="circle headline" style="background:#3B5797;"><i
+                            class="icon-facebook"></i></a>
+                    </div>
+                    <div class="social-icon">
+                        <a href="#" class="circle headline" style="background:#ff3414;"><i
+                            class="icon-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__card headline">
+                <h2 class="footer__card--text">Open Hours</h2>
+                <div class="open-hour row">
+                    <span class="left">Monday</span>
+                    <span class="right">9:00 - 24:00</span>
+                </div>
+                <div class="open-hour row">
+                    <span class="left">Tuesday</span>
+                    <span class="right">9:00 - 24:00</span>
+                </div>
+                <div class="open-hour row">
+                    <span class="left">Wednesday</span>
+                    <span class="right">9:00 - 24:00</span>
+                </div>
+                <div class="open-hour row">
+                    <span class="left">Thursday</span>
+                    <span class="right">9:00 - 24:00</span>
+                </div>
+                <div class="open-hour row">
+                    <span class="left">Friday</span>
+                    <span class="right">9:00 - 24:00</span>
+                </div>
+                <div class="open-hour row">
+                    <span class="left">Saturday </span>
+                    <span class="right">9:00 - 24:00</span>
+                </div>
+                <div class="open-hour row">
+                    <span class="left">Sunday</span>
+                    <span class="right">9:00 - 24:00</span>
+                </div>
+            </div>
+            <div class="footer__card headline">
+                <h2 class="footer__card--text">Instagram</h2>
+                <div class="footer__card--img">
+                    <a href=""><img src="./images/insta-1.jpg" class="img-footer"></a>
+                    <a href=""><img src="./images/insta-2.jpg" class="img-footer"></a>
+                    <a href=""><img src="./images/insta-3.jpg" class="img-footer"></a>
+                    <a href=""><img src="./images/insta-4.jpg" class="img-footer"></a>
+                    <a href=""><img src="./images/insta-5.jpg" class="img-footer"></a>
+                    <a href=""><img src="./images/insta-6.jpg" class="img-footer"></a>
+                </div>
+            </div>
+            <div class="footer__card headline">
+                <h2 class="footer__card--text">Newsletter</h2>
+                <p>Far far away, behind the word mountains, far from the countries.</p>
+                <input type="text" placeholder="Enter Your Address">
+                <input type="submit" placeholder="Subscribe" class="subscribe">
+            </div>
+        </div>
+        <div class="coppyright">
+            <p>Copyright ©<span id="year"></span> All rights reserved | This template is made with <i class="icon-heart"></i> by
+                Feliciano</p>
+        </div>
+    </div>
+</footer>
+<!--==================end-footer===============-->
+    <!-- javascript -->
+    <script src="./js/slider.js"></script>
+    <script src="./js/year.js"></script> 
+    <script src="./js/scroll.js"></script>
+    <script src="./js/count_number.js"></script> 
+    <script src="./js/validateForm.js"></script>
+ 
+    <!-- Hiệu ứng reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <Script src="./js/ScrollReveal.js"></Script>
+</body>
+</html>

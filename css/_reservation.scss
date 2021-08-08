@@ -1,0 +1,63 @@
+.reservation{
+    background: url(../images/bg_3.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 90px 0;
+}
+.reservation__book-a-table{
+    display: grid;
+    width: 70%;
+    background-color: #ffffff;
+    padding:40px;
+    margin: 100px 0;
+}
+.reservation__book-a-table--title{
+    width: 100%;
+    margin-top: -60px;
+    text-align: center;
+    h3{
+        @extend %fontGreate;
+    }
+    h4{
+        @extend %heading;
+    }
+}
+.form__book-a-table{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:25px;
+    padding:40px 0;
+
+    label{
+        font-size: 1.1rem;
+        font-weight: 500;
+        color:$color__text;
+        line-height: 3rem;
+    }
+}
+.form__input{
+    width:100%;
+    height: 3rem;
+    font-size: 1rem;
+    text-indent: 10px;
+    border:1px solid $color__text--one;
+}
+
+.btn-submit{
+    @extend %btn;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+.btn-submit:hover{
+    @extend %btnHover;
+}
+.btn-submit:active{
+    @extend %btn-primary;
+}
+.form__submit{
+    justify-content: center;
+}

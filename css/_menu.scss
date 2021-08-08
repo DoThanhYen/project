@@ -1,0 +1,74 @@
+#menus{
+    margin: 90px 0;
+}
+.menu__title{
+    width: 100%;
+    text-align: center;
+    padding: 60px 0;
+
+    h3{
+        @include fontGreate();
+    }
+    h4{
+        @include heading();
+    }
+}
+
+.menu__cards{
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:0;
+}
+
+.menu__card{
+    width:100%;
+    height:260px;
+    box-shadow: 0.1px -0.1px 0.1px -0.1px $color__text--one;
+
+    .menu__card--img,.menu__card--text{
+        width: 50%;
+        height: 100%;
+        margin:0;
+    }
+    .menu__card--text{
+        padding:30px 20px;
+        border: 1px solid #e6e6e6;
+
+        p{
+            color: $color__text--one;
+            padding:6px 0;
+        }
+        .btn{
+            margin-top: 20px;
+        }
+        a{
+            @extend %btn;
+        }
+        a:hover{
+            @extend %btnHover;
+        }
+        a:active,a:link{
+            @extend%btn-primary;
+        }
+    }
+
+    .menu__card--text-title{
+        width:100%;
+        align-items: flex-start;
+        h3{
+            width:70%;
+            color:$color__text;
+            font-size: 1.3rem;
+            font-weight: 500;
+            padding-right:  20px;
+        }
+        p{
+            width:20%;
+            color:$main__color;
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin-left: auto;
+        }
+    }
+}
